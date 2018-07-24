@@ -12,6 +12,8 @@
 		311D19CC77066C7E3B9CE50B7276A659 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		52E3F614CCD44264C71953CE023DE777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7387D723BFEDFC76EB68FF8705AA48F1 /* TestView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0AA006E0E652103F51F1F817DDAB26 /* TestView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		844E5C632106C2FA000A28EB /* TestTableViewTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 844E5C612106C2F9000A28EB /* TestTableViewTableViewController.h */; };
+		844E5C642106C2FA000A28EB /* TestTableViewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844E5C622106C2FA000A28EB /* TestTableViewTableViewController.m */; };
 		9E74542911BC46D57109D255F0D6E041 /* Pods-YQLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5394D469C14D0060811D7C9D0B235B36 /* Pods-YQLib_Example-dummy.m */; };
 		C1DBAF291C9D23F1F7DB2F3FE347F58E /* YQLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9785A5525F3FAB4C88AEE2995E11BF87 /* YQLib-dummy.m */; };
 		C36B1E0BE195214D4E7D1D17017E0897 /* Pods-YQLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E86A9CAD36685A9DFEE33766F61D56 /* Pods-YQLib_Tests-dummy.m */; };
@@ -39,21 +41,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		002EC06B481A14D7BD8F8203FEBCC488 /* Pods_YQLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YQLib_Example.framework; path = "Pods-YQLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		002EC06B481A14D7BD8F8203FEBCC488 /* Pods_YQLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YQLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		061192821587F84AB6CD18606FB412FE /* Pods-YQLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		067B24AF96D02CA88877A4DCD4310A1B /* Pods-YQLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YQLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		18FEB433128FBD101D75E0397FA96885 /* Pods-YQLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1D196A18F1183C0F13D3A98D24FFE34E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25E86A9CAD36685A9DFEE33766F61D56 /* Pods-YQLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		28926AE291C0A93D3DF5C314653138EC /* Pods_YQLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YQLib_Tests.framework; path = "Pods-YQLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28926AE291C0A93D3DF5C314653138EC /* Pods_YQLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YQLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29AE09EDB3ADE62714AD989BD60ECBE6 /* YQLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQLib-prefix.pch"; sourceTree = "<group>"; };
-		3166466712CC57C1ACFE962219BC91E2 /* YQLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YQLib.framework; path = YQLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		335CD3584205105C37424EDAEB2C57A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3166466712CC57C1ACFE962219BC91E2 /* YQLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YQLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		335CD3584205105C37424EDAEB2C57A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3D0627CAFE490BCF838AB8A0E113EF4C /* Pods-YQLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		414837A25DB83472DA9536AC960E91F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4413761AFB7691F54A5D387E28F578D8 /* Pods-YQLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQLib_Example-resources.sh"; sourceTree = "<group>"; };
 		4F0AA006E0E652103F51F1F817DDAB26 /* TestView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestView.h; path = YQLib/Classes/TestView.h; sourceTree = "<group>"; };
-		4F2E4463C3C76474077C92E4DA8A4DB8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4F2E4463C3C76474077C92E4DA8A4DB8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5359E180C0FF025406DDD3B6DDCA80FC /* YQLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQLib-umbrella.h"; sourceTree = "<group>"; };
 		5394D469C14D0060811D7C9D0B235B36 /* Pods-YQLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQLib_Example-dummy.m"; sourceTree = "<group>"; };
 		5D3FE5E603D1088D588DC37D89520955 /* Pods-YQLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -63,7 +65,9 @@
 		715FD3FB0EE3B3D1C54137ADA39F9748 /* YQLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YQLib.xcconfig; sourceTree = "<group>"; };
 		77334F94B373BA5FF080B85BBC532996 /* Pods-YQLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7F235621E62A50FBB7168C91D0152412 /* Pods-YQLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		844E5C612106C2F9000A28EB /* TestTableViewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestTableViewTableViewController.h; path = YQLib/Classes/TestTableViewTableViewController.h; sourceTree = "<group>"; };
+		844E5C622106C2FA000A28EB /* TestTableViewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestTableViewTableViewController.m; path = YQLib/Classes/TestTableViewTableViewController.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93B65CC5F6275F5705AB2281C80E6B58 /* Pods-YQLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQLib_Tests-resources.sh"; sourceTree = "<group>"; };
 		96CAD275EA61D085383AD30D56911FFD /* Pods-YQLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9785A5525F3FAB4C88AEE2995E11BF87 /* YQLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YQLib-dummy.m"; sourceTree = "<group>"; };
@@ -72,7 +76,7 @@
 		B2C0883EB7EC807A05F19D0879650447 /* Pods-YQLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B4410021B39124FC67B12266C4046102 /* Pods-YQLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YQLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B84462AA09A7CAD84790EE72699B3BC0 /* Pods-YQLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D6CA668510449055F812B812EE93DCD9 /* YQLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YQLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D6CA668510449055F812B812EE93DCD9 /* YQLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = YQLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DBF3D576F1445E00E6FFD98336881868 /* Pods-YQLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DE2C0063293DC3D53A3FDC86ECDBF99E /* Pods-YQLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YQLib_Tests.modulemap"; sourceTree = "<group>"; };
 		DECE22E4FBC897D6F99E78F76DBC43F6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YQLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
@@ -223,6 +227,8 @@
 		FB753D96CC6662DD0ECFE2A3084E7E24 /* YQLib */ = {
 			isa = PBXGroup;
 			children = (
+				844E5C612106C2F9000A28EB /* TestTableViewTableViewController.h */,
+				844E5C622106C2FA000A28EB /* TestTableViewTableViewController.m */,
 				DECE22E4FBC897D6F99E78F76DBC43F6 /* ReplaceMe.m */,
 				4F0AA006E0E652103F51F1F817DDAB26 /* TestView.h */,
 				9CA8368D4DF2260C0B48940B47CD67CC /* TestView.m */,
@@ -240,6 +246,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844E5C632106C2FA000A28EB /* TestTableViewTableViewController.h in Headers */,
 				FC694D39B873E5F4B9B71994CF22812D /* Pods-YQLib_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E74542911BC46D57109D255F0D6E041 /* Pods-YQLib_Example-dummy.m in Sources */,
+				844E5C642106C2FA000A28EB /* TestTableViewTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
