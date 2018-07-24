@@ -1,8 +1,8 @@
 {
   "name": "YQLib",
-  "version": "0.1.0",
-  "summary": "A short description of YQLib.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "A Pod Lib.",
+  "description": "A Pod Lib Description",
   "homepage": "https://github.com/huangyq0810/YQLib",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/huangyq0810/YQLib.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

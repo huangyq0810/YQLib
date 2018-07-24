@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1100F84CA85B2E580E7EE6AE52823096 /* YQLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5359E180C0FF025406DDD3B6DDCA80FC /* YQLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		164B594FF62FA1B341AD172CD4139383 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8368D4DF2260C0B48940B47CD67CC /* TestView.m */; };
 		311D19CC77066C7E3B9CE50B7276A659 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		52E3F614CCD44264C71953CE023DE777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7B45074882AA9723EBC1AC90B6E7B8B9 /* YQLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DCA44ADE0E31333F6883D1B876A3FC /* YQLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86125481096630D096D1408B09C9C51A /* YQLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8859EEDBF602A66C508471B856FF23D5 /* YQLib-dummy.m */; };
+		7387D723BFEDFC76EB68FF8705AA48F1 /* TestView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0AA006E0E652103F51F1F817DDAB26 /* TestView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E74542911BC46D57109D255F0D6E041 /* Pods-YQLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5394D469C14D0060811D7C9D0B235B36 /* Pods-YQLib_Example-dummy.m */; };
+		C1DBAF291C9D23F1F7DB2F3FE347F58E /* YQLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9785A5525F3FAB4C88AEE2995E11BF87 /* YQLib-dummy.m */; };
 		C36B1E0BE195214D4E7D1D17017E0897 /* Pods-YQLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E86A9CAD36685A9DFEE33766F61D56 /* Pods-YQLib_Tests-dummy.m */; };
 		CAF8500B5B2AD636E8F08A623D4B3A27 /* Pods-YQLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4410021B39124FC67B12266C4046102 /* Pods-YQLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD6DE06F81634E823C72D9D65EA6BE25 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D7EBE7861A4ADF2ED67032B2C22693 /* ReplaceMe.m */; };
+		CD59C766BEF4D26524A6694BB09BF8F0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DECE22E4FBC897D6F99E78F76DBC43F6 /* ReplaceMe.m */; };
 		DD660FD2F64CDEA68A5EAC1CD64C0515 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		FC694D39B873E5F4B9B71994CF22812D /* Pods-YQLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 067B24AF96D02CA88877A4DCD4310A1B /* Pods-YQLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -40,38 +42,40 @@
 		002EC06B481A14D7BD8F8203FEBCC488 /* Pods_YQLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YQLib_Example.framework; path = "Pods-YQLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		061192821587F84AB6CD18606FB412FE /* Pods-YQLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		067B24AF96D02CA88877A4DCD4310A1B /* Pods-YQLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YQLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		13D7EBE7861A4ADF2ED67032B2C22693 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YQLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		18FEB433128FBD101D75E0397FA96885 /* Pods-YQLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1D196A18F1183C0F13D3A98D24FFE34E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25E86A9CAD36685A9DFEE33766F61D56 /* Pods-YQLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		28926AE291C0A93D3DF5C314653138EC /* Pods_YQLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YQLib_Tests.framework; path = "Pods-YQLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AE09EDB3ADE62714AD989BD60ECBE6 /* YQLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQLib-prefix.pch"; sourceTree = "<group>"; };
 		3166466712CC57C1ACFE962219BC91E2 /* YQLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YQLib.framework; path = YQLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35CB06C4F97825B49B5B5FAFDFC08468 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		335CD3584205105C37424EDAEB2C57A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3D0627CAFE490BCF838AB8A0E113EF4C /* Pods-YQLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		414837A25DB83472DA9536AC960E91F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4413761AFB7691F54A5D387E28F578D8 /* Pods-YQLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQLib_Example-resources.sh"; sourceTree = "<group>"; };
-		4E39B8923DB38CB0589C290D9CB88541 /* YQLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YQLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4F0AA006E0E652103F51F1F817DDAB26 /* TestView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestView.h; path = YQLib/Classes/TestView.h; sourceTree = "<group>"; };
+		4F2E4463C3C76474077C92E4DA8A4DB8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5359E180C0FF025406DDD3B6DDCA80FC /* YQLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQLib-umbrella.h"; sourceTree = "<group>"; };
 		5394D469C14D0060811D7C9D0B235B36 /* Pods-YQLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQLib_Example-dummy.m"; sourceTree = "<group>"; };
 		5D3FE5E603D1088D588DC37D89520955 /* Pods-YQLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		650075BEF95AE78E8AD80D0A78B7FBBC /* YQLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YQLib.modulemap; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6B89D8EDB2544DBA923B497975B7191C /* Pods-YQLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YQLib_Example.modulemap"; sourceTree = "<group>"; };
-		76BD14BFDBAF850606DCFBFAC7864B2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715FD3FB0EE3B3D1C54137ADA39F9748 /* YQLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YQLib.xcconfig; sourceTree = "<group>"; };
 		77334F94B373BA5FF080B85BBC532996 /* Pods-YQLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7E854EC6664B7BF4F5BC2963DC49FBAD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7F235621E62A50FBB7168C91D0152412 /* Pods-YQLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		8859EEDBF602A66C508471B856FF23D5 /* YQLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YQLib-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93B65CC5F6275F5705AB2281C80E6B58 /* Pods-YQLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQLib_Tests-resources.sh"; sourceTree = "<group>"; };
 		96CAD275EA61D085383AD30D56911FFD /* Pods-YQLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YQLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9785A5525F3FAB4C88AEE2995E11BF87 /* YQLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YQLib-dummy.m"; sourceTree = "<group>"; };
+		9CA8368D4DF2260C0B48940B47CD67CC /* TestView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestView.m; path = YQLib/Classes/TestView.m; sourceTree = "<group>"; };
 		A220B0A76B50DBF1272AEAA72464EAE7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2C0883EB7EC807A05F19D0879650447 /* Pods-YQLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B4410021B39124FC67B12266C4046102 /* Pods-YQLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YQLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B84462AA09A7CAD84790EE72699B3BC0 /* Pods-YQLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D05A715C3D7215F55635351F36913A18 /* YQLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQLib-prefix.pch"; sourceTree = "<group>"; };
-		D0DCA44ADE0E31333F6883D1B876A3FC /* YQLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YQLib-umbrella.h"; sourceTree = "<group>"; };
-		D36862B17ED60C9511391FBA45910EAB /* YQLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YQLib.modulemap; sourceTree = "<group>"; };
+		D6CA668510449055F812B812EE93DCD9 /* YQLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YQLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DBF3D576F1445E00E6FFD98336881868 /* Pods-YQLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DE2C0063293DC3D53A3FDC86ECDBF99E /* Pods-YQLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YQLib_Tests.modulemap"; sourceTree = "<group>"; };
-		EA7452F4378955078EC7E830836618D3 /* YQLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YQLib.xcconfig; sourceTree = "<group>"; };
+		DECE22E4FBC897D6F99E78F76DBC43F6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YQLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,23 +124,15 @@
 			path = "Target Support Files/Pods-YQLib_Example";
 			sourceTree = "<group>";
 		};
-		23570BF1A986BA08C6AE7802746237CD /* Development Pods */ = {
+		5259A8C00424A05018F69D0A738714C5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EAD9B5D26E3C6ABC22D9C542A045BB8F /* YQLib */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		424C3EB17BDB8EBE5B41866D905DDAC3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				76BD14BFDBAF850606DCFBFAC7864B2E /* Info.plist */,
-				D36862B17ED60C9511391FBA45910EAB /* YQLib.modulemap */,
-				EA7452F4378955078EC7E830836618D3 /* YQLib.xcconfig */,
-				8859EEDBF602A66C508471B856FF23D5 /* YQLib-dummy.m */,
-				D05A715C3D7215F55635351F36913A18 /* YQLib-prefix.pch */,
-				D0DCA44ADE0E31333F6883D1B876A3FC /* YQLib-umbrella.h */,
+				414837A25DB83472DA9536AC960E91F2 /* Info.plist */,
+				650075BEF95AE78E8AD80D0A78B7FBBC /* YQLib.modulemap */,
+				715FD3FB0EE3B3D1C54137ADA39F9748 /* YQLib.xcconfig */,
+				9785A5525F3FAB4C88AEE2995E11BF87 /* YQLib-dummy.m */,
+				29AE09EDB3ADE62714AD989BD60ECBE6 /* YQLib-prefix.pch */,
+				5359E180C0FF025406DDD3B6DDCA80FC /* YQLib-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/YQLib";
@@ -156,7 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				23570BF1A986BA08C6AE7802746237CD /* Development Pods */,
+				9E7912006BAA6B1DBF075D6B4A466B8E /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				64BDDC6EFB5DBA7084A9D2212FDDC0A0 /* Products */,
 				DE3421BC285B6DED614798B27CC437A1 /* Targets Support Files */,
@@ -181,12 +177,30 @@
 			path = "Target Support Files/Pods-YQLib_Tests";
 			sourceTree = "<group>";
 		};
+		9E7912006BAA6B1DBF075D6B4A466B8E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB753D96CC6662DD0ECFE2A3084E7E24 /* YQLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD418401E257F452A22F5D7242B82837 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4F2E4463C3C76474077C92E4DA8A4DB8 /* LICENSE */,
+				335CD3584205105C37424EDAEB2C57A0 /* README.md */,
+				D6CA668510449055F812B812EE93DCD9 /* YQLib.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -206,25 +220,17 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		EAD9B5D26E3C6ABC22D9C542A045BB8F /* YQLib */ = {
+		FB753D96CC6662DD0ECFE2A3084E7E24 /* YQLib */ = {
 			isa = PBXGroup;
 			children = (
-				13D7EBE7861A4ADF2ED67032B2C22693 /* ReplaceMe.m */,
-				F3B1B2C133D5FC3728FDB5B0CF54E0A0 /* Pod */,
-				424C3EB17BDB8EBE5B41866D905DDAC3 /* Support Files */,
+				DECE22E4FBC897D6F99E78F76DBC43F6 /* ReplaceMe.m */,
+				4F0AA006E0E652103F51F1F817DDAB26 /* TestView.h */,
+				9CA8368D4DF2260C0B48940B47CD67CC /* TestView.m */,
+				CD418401E257F452A22F5D7242B82837 /* Pod */,
+				5259A8C00424A05018F69D0A738714C5 /* Support Files */,
 			);
 			name = YQLib;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		F3B1B2C133D5FC3728FDB5B0CF54E0A0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				35CB06C4F97825B49B5B5FAFDFC08468 /* LICENSE */,
-				7E854EC6664B7BF4F5BC2963DC49FBAD /* README.md */,
-				4E39B8923DB38CB0589C290D9CB88541 /* YQLib.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,11 +252,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C24A0566513AD4BD99C068AACA95A797 /* Headers */ = {
+		EB9B1168C4D482D1E2AEF53F36E0245A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B45074882AA9723EBC1AC90B6E7B8B9 /* YQLib-umbrella.h in Headers */,
+				7387D723BFEDFC76EB68FF8705AA48F1 /* TestView.h in Headers */,
+				1100F84CA85B2E580E7EE6AE52823096 /* YQLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +268,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C64391DF23186CA666980837257695D4 /* Build configuration list for PBXNativeTarget "YQLib" */;
 			buildPhases = (
-				B8BE44DCD14D44C1ED1C704AAA1F2CE6 /* Sources */,
+				8CD35F7FACC6313DD2BF95E6070C704A /* Sources */,
 				F1E767E82DFFACF0BB962ED5D37B9E9C /* Frameworks */,
-				C24A0566513AD4BD99C068AACA95A797 /* Headers */,
+				EB9B1168C4D482D1E2AEF53F36E0245A /* Headers */,
 			);
 			buildRules = (
 			);
@@ -339,20 +346,21 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8CD35F7FACC6313DD2BF95E6070C704A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD59C766BEF4D26524A6694BB09BF8F0 /* ReplaceMe.m in Sources */,
+				164B594FF62FA1B341AD172CD4139383 /* TestView.m in Sources */,
+				C1DBAF291C9D23F1F7DB2F3FE347F58E /* YQLib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A33766E70F64D9D29EA04CCA62472D0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9E74542911BC46D57109D255F0D6E041 /* Pods-YQLib_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B8BE44DCD14D44C1ED1C704AAA1F2CE6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD6DE06F81634E823C72D9D65EA6BE25 /* ReplaceMe.m in Sources */,
-				86125481096630D096D1408B09C9C51A /* YQLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +425,7 @@
 		};
 		5F185A332B801ED768C8319A2A883E71 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA7452F4378955078EC7E830836618D3 /* YQLib.xcconfig */;
+			baseConfigurationReference = 715FD3FB0EE3B3D1C54137ADA39F9748 /* YQLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -578,7 +586,7 @@
 		};
 		AC4730EF5D75A56158974E60D37EA94D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA7452F4378955078EC7E830836618D3 /* YQLib.xcconfig */;
+			baseConfigurationReference = 715FD3FB0EE3B3D1C54137ADA39F9748 /* YQLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
