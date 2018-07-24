@@ -1,0 +1,16 @@
+PODS:
+  - YQLib (0.1.0)
+
+DEPENDENCIES:
+  - YQLib (from `../`)
+
+EXTERNAL SOURCES:
+  YQLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YQLib: f360bb4afef0a1bb863b00609c75fa13bb14701b
+
+PODFILE CHECKSUM: f908e386a7daf9dbcbc70e1de35db8ba1871b416
+
+COCOAPODS: 1.5.3
