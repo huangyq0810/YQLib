@@ -1,6 +1,6 @@
 {
   "name": "YQLib",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A Pod Lib.",
   "description": "A Pod Lib Description",
   "homepage": "https://github.com/huangyq0810/YQLib",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/huangyq0810/YQLib.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"

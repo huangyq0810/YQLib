@@ -1,5 +1,5 @@
 PODS:
-  - YQLib (0.1.1)
+  - YQLib (0.1.2)
 
 DEPENDENCIES:
   - YQLib (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YQLib: a01b196ef95c94f43dbece02fd785fd16d7b49a4
+  YQLib: e18eabb8ae1fb9fcc8ad023f70d12f9a46b0278b
 
 PODFILE CHECKSUM: f908e386a7daf9dbcbc70e1de35db8ba1871b416
 
